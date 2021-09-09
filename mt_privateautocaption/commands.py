@@ -11,7 +11,7 @@ USERNAME=Config.BOT_USERNAME
 
 @Client.on_message(filters.private & filters.command("start"))
 async def start(client, update):
-    text = f"""<b> 👋Hello {update.from_user.mention}\n\nI am an AutoCaption bot\n\nAll you have to do is add me to your channel and I will show you my power\n\nFor more info check help Button\n\n @KANNADAMOVIES_17</b>"""
+    text = f"""<b> 👋Hello {update.from_user.mention}\n\nI am an AutoCaption bot\n\nAll you have to do is add me to your channel and I will show you my power\n\nFor more info check help Button\n\n @BAGURUJOINAGUUKANNADAMOVIES_17</b>"""
     reply_markup =  InlineKeyboardMarkup(
                                          [[
         InlineKeyboardButton("help↗️", callback_data="heroku"),
