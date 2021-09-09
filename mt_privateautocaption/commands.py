@@ -16,7 +16,7 @@ async def start(client, update):
                                          [[
         InlineKeyboardButton("help↗️", callback_data="heroku"),
         InlineKeyboardButton("🗣️Group", url="t.me/searchkannadamovies"),
-        InlineKeyboardButton("Channel📢", url="t.me/KANNADAMOVIES_17")
+        InlineKeyboardButton("Channel📢", url="t.me/BAGURUJOINAGUUKANNADAMOVIES_17")
         ]]
     )
     await update.reply_text(
@@ -50,8 +50,8 @@ async def callback_data(client, update: CallbackQuery):
     if query_data == "about":
         buttons = [[
             InlineKeyboardButton("🗣️Group", url="t.me/searchkannadamovies"),
-            InlineKeyboardButton("Channel📢", url="t.me/KANNADAMOVIES_17"),
-            InlineKeyboardButton("📃Bot List", url="https://t.me/KANNADAMOVIES_17")
+            InlineKeyboardButton("Channel📢", url="t.me/BAGURUJOINAGUUKANNADAMOVIES_17"),
+            InlineKeyboardButton("📃Bot List", url="t.me/BAGURUJOINAGUUKANNADAMOVIES_17")
             ],[
             InlineKeyboardButton("🏠Home", url=f"https://t.me/{USERNAME}?start=start"),
             InlineKeyboardButton("🔙Back", callback_data="heroku"),
